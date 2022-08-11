@@ -1,3 +1,3 @@
 ﻿# hbAcademy
- ### Practicing Software Engineering Concepts, Theories through lectures, labs and continued practiced!
+ ### Practicing Software Engineering Concepts, Theories through their online curriculum
  ### Becoming better every day in every way!
