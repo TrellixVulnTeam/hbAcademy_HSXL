@@ -1,0 +1,55 @@
+/* reset default settings */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Everything lives in here */
+.page-container {
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+}
+
+/* === FIRST SECTION === */
+/* The first large rectangle, containing three boxes */
+.first-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    background-color: rosybrown;
+}
+
+.left-box {
+    background-color: rebeccapurple;
+    padding: 30px 15px;
+}
+
+.middle-box {
+    background-color: rebeccapurple;
+    padding: 30px 15px;
+}
+
+.right-box {
+    background-color: rebeccapurple;
+    padding: 30px 15px;
+}
+
+/* === MIDDLE SECTION === */
+/* second large rectangle containing rectangle */
+.second-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    background-color: rosybrown;
+}
+
+/* === BOTTOM SECTION === */
+/* third rectangle saying hello friends*/
+.third-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    background-color: rosybrown;
+}

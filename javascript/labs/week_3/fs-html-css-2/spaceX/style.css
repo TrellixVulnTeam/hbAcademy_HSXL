@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.please-work {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    background-image: url("./floatingperson.jpg");
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar {
+    color: white;
+}
+
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+

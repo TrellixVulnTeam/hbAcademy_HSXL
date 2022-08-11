@@ -1,0 +1,32 @@
+/* Set defaults */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    background-color: lightgrey;
+    height: 100vh
+}
+
+.nav-bar {
+    background-color: gray;
+    height: 20vh;
+}
+
+.content-section {
+    height: 70vh;
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.footer-bar {
+    /* position footer to bottom */
+    position: fixed;
+    bottom: 0;
+    /* Stylings of footer */
+    background-color: red;
+    height: 10vh;
+    width: 75%;
+}
