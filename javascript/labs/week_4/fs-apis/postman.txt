@@ -1,0 +1,55 @@
+1. Darth Vader's Height
+    - swapi.dev/api/people/4/
+        - shows his height is 202.
+
+2. Population of planet Alderaan
+    - swapi.dev/api/planets/2
+        - shows the Population is 2000000000.
+
+3. The name of the manufacturer of the Millennium Falcon
+    - swapi.dev/api/starships/10/
+        - manufacturer is Corellian Engineering Corporation
+
+4. The name of the species that C-3PO belongs to (multiple URLs)
+    - swapi.dev/api/species/2/
+        - specifies is a Droid
+
+5. The title of each film that Obi-Wan Kenobi is in (multiple URLs)
+    - swapi.dev/api/people/10/
+        - film links are:
+        "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/",
+        "https://swapi.dev/api/films/4/",
+        "https://swapi.dev/api/films/5/",
+        "https://swapi.dev/api/films/6/"
+
+
+6. Use the search query (the how to on the search query is at the bottom of the Getting Started section of the documentation) to get the information about the Millennium Falcon, it’s a starship
+    - swapi.dev/api/starships/?search=mil
+
+======= Part 2: Social Mountain =======
+
+1. Check if the POST request accept params, queries, and/or a body. Which one(s) and what information is it expecting to be sent?
+    queries about posts on the website.
+
+2. What data type does the GET request return?
+     json / objects
+
+3. What would the URL look like for deleting the post with the id 555? (This post does not exist anymore, but the syntax is the same for existing posts)
+    practiceapi.devmountain.com/api/posts?id=555
+        - requires the post ID 
+
+4. List the possible response codes from the GET request at /posts/filter
+
+5. Create a post whose text is your name, record the URL and body here:
+
+6. What would the URL and body object be to update the post you just made to contain your faovrite color instead of your name?
+
+7. What is the URL to get posts that contain the text “blue”?
+
+8. Make a request to GET all the posts. What are the content type and charset of the response? (Hint: look on the Headers)
+
+9. What would cause a PUT request to return a 409 status?
+
+10. What happens if you try to send a query in the GET request URL? Why do you get that response?
