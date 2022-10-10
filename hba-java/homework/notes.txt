@@ -1,0 +1,29 @@
+splitting sections by similar class names used instead of updating.
+
+Type-Casting
+-- Clicked: --
+- We access only some specified variables and methods of the CHILD class.
+    This is known as Generalization and Widening
+
+
+Note: Strings implement comparables
+Strings are objects, and they implement the comparable interface
+- This allows us to use the compare function from the comparable interface!
+
+Think if interfaces, as TAGS, or tagging, meaning do or do not meet the requirements to be considered the class that it implements 
+
+=== INTERFACES?? ===
+My current understanding of interfaces is where we setup / define our functionality that we may be reusing methods with slight variations. 
+
+Ex: A coffee maker has presets and instead of having 1 class (to handle ALL cup sizes) by overloading a cup class.
+
+we created the interface (serving as our menu). to then create different size cup classes that each will have our custom methods with their own unique temperature, water amount and coffee bean amount.
+
+This interface (menu) is our blank skeleton where we know we have to have a certain cup sizes and each size brews its own unique way. And it's allowing us to spread out our classes. Lessen the overloading and better code readability.
+
+So we set up the skeleton and then we implement it, and define each one of those cup sizes as a class (then implementing the interface). Where we then can say how much water to add and how long to brew, etc. 
+
+We HAVE to create the methods that we specified in our interface (or menu) for each class. (is what my understanding).
+
+
+Including the different units together in 1 folder to have different projects readily available.

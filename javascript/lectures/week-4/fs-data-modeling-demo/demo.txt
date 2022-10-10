@@ -1,0 +1,14 @@
+=== Summary ===
+We are going to plan the data model for a basic social media app.
+Features : 
+    - users can sign into the app with their email and password
+
+    - users can follow each other
+
+    - users can create posts with photos and/or text
+
+    - users can comment on posts
+
+    - users can join groups
+
+    - users can create posts within groups

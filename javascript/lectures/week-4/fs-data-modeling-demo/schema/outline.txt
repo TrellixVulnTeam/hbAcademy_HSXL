@@ -1,0 +1,52 @@
+Outline for a table:
+- TABLE NAME
+    - possible foreign key other tables
+
+=== DEMO DB / SCHEMA ===
+users
+shelters
+    location, city
+pet
+   dogs, cats, birds
+
+    === added tables after brainstorm ===
+Adopted table - user can adopt many animals, so they can have many adopted_id's associated with them
+but an animal can be adopted once, only have one adopted_id when adopted.
+allowing us to count the amount a user has adopted a dog by counting a user's # of adopted_id's
+    table data: adopted_id (pk), created_at, updated_at
+    - user_id (fk), pet_id (fk)
+
+=== If adding more tables or expanding on existing tables ===
+ex: City table to an Address table:
+    - an address table attributes broken down into 2 sub-tables:
+        address table: address_id (pk), street_name, street_name_2 city_id (fk), state_id (fk)  
+            city table: ( city_id (pk), city_name, city_abv, state_id (fk), zipcode )
+                * zipcode maybe it's own table as well * - continuing as it is not.
+            state table: ( state_id (pk), state_name, state_abv )
+
+* Why do this? Because we might run into a situation where a 
+* city exists in another state and having state_id + city_id 
+* would help in identifying where we send a package for example.
+
+- Data Type for User
+====================
+user_id : pk
+name : varchar
+age : integer
+email : varchar
+password : varchar (long to store hashed + salted passwords)
+city: varchar (could be an integer or char (using abv) when address is broken down)
+state: varchar (could be an integer when address is broken down)
+    === added tables after brainstorm ===
+hasAdopted: integer - count of user_id as hasAdopted, start at 0 by default?
+=====================
+
+Relationships between tables ===
+== user can adopt many dogs
+"each user can adopt MANY dogs but a dog can be adopted by ONE user."
+
+== shelter can have many users
+"many users can adopt from many shelters, meaning shelters can be used by many users"
+
+== 1 animal belongs to 1 shelter
+BUT 1 user can belong to many shelters and adopt many animals.
